@@ -1,0 +1,176 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+     background: hsl(0,0%, 95%);
+    
+     
+}
+.nav {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav ul li{
+    list-style: none;
+    cursor: pointer;
+    padding-top: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: red;
+}
+
+nav ul li a:hover{
+    color: rgb(41, 113, 114);
+}
+
+
+main{
+    display: flex;
+    width: 1440px;
+    max-width: 100%;
+    min-height: 400px;
+    justify-content: center;
+    align-content: center;
+    margin:0 auto;
+    margin-top: 30px;
+   
+
+}
+
+
+main h2{
+    color:  hsl(0,0%, 95%);
+    margin-top: 40px;
+    
+}
+main p{
+    margin-top: 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.center{
+    padding: 50px;
+    width: inherit;
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-height: 400px
+   
+}
+.center img{
+    height: 30px;
+    width: 70px;
+}
+.center button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    color: hsl(184, 100%, 22%);
+    background: hsl(0,0%, 95%);
+    margin-top: 50px;
+}
+
+.left{
+    padding: 50px;  
+    width: inherit;
+     background-color: hsl(31, 77%, 52%);
+     display: flex;
+     flex-direction: column;
+     max-width: 100%;
+     min-height: 400px
+}
+.left img{
+    height: 30px;
+    width: 70px;
+}
+.left button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    color:hsl(31, 77%, 52%);
+    background: hsl(0,0%, 95%);
+    margin-top: 50px;
+}
+
+.right{
+    padding: 50px;
+    width: inherit;
+    background-color:  hsl(179, 100%, 13%);
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-height: 400px
+    
+}
+.right img{
+    height: 30px;
+    width: 70px;
+}
+
+.right button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    color: hsl(179, 100%, 13%);
+    background: hsl(0,0%, 95%);
+    margin-top: 50px;
+}
+
+@media (max-width:600px){
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 400px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        background-color: blue;
+        width:100%;
+    }
+    
+}
+
+@media (max-width:480px){
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 400px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        background-color: blue;
+        width:100%;
+    }
+    
+}
+
+
+
+ 
